@@ -21,7 +21,7 @@
       />
    ```
 
- - <data-table/>
+ - `<data-table/>`
    - 这个component是实现一个表格。
    - 有两个主要的属性，一个是columns，一个是data。
      - columns是定义每一个列的，列头是label定义的，提取这个列里面的数据是dataExtractor定义的。align是定义左对齐还是右对齐，当align的值是left，那么是左对齐。

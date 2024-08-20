@@ -20,6 +20,7 @@
         :selected="selectedArticles"
       />
    ```
+
  - <data-table/>
    - 这个component是实现一个表格。
    - 有两个主要的属性，一个是columns，一个是data。

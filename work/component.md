@@ -11,7 +11,8 @@
    - 这对标签是将包含的内容都显示在左边栏。
 
  - <data-table/>
-   ```
+
+   ```ts
       <data-table
         :columns="[
           { label: 'Id', dataExtractor: (article) => article.id, align: 'left', isKey: true },

@@ -23,11 +23,11 @@
  - <data-table/>
    - 这个component是实现一个表格。
    - 有两个主要的属性，一个是columns，一个是data。
-    - columns是定义每一个列的，列头是label定义的，提取这个列里面的数据是dataExtractor定义的。align是定义左对齐还是右对齐，当align的值是left，那么是左对齐。
-     - 特别注意的是isKey，它的值如果是true，那么就是每一行的key，必须唯一且不重复的。
-      `{ label: 'Id', dataExtractor: (article) => article.id, align: 'left', isKey: true } //这里一行的key是Id`
-    - data属性是一个数组。存储各种对象的数组。dataExtractor就是在这个数组提取数据。
-    - selected属性是表示选中哪一行的key。
+     - columns是定义每一个列的，列头是label定义的，提取这个列里面的数据是dataExtractor定义的。align是定义左对齐还是右对齐，当align的值是left，那么是左对齐。
+       - 特别注意的是isKey，它的值如果是true，那么就是每一行的key，必须唯一且不重复的。
+        `{ label: 'Id', dataExtractor: (article) => article.id, align: 'left', isKey: true } //这里一行的key是Id`
+     - data属性是一个数组。存储各种对象的数组。dataExtractor就是在这个数组提取数据。
+     - selected属性是表示选中哪一行的key。
   特别注意事项：    
    `@select="onSelect"`    
    这里是一个事件。select是事件名， onSelect是消息处理函数的名称。当触发事件后，会运行这个消息处理函数onSelect。    
